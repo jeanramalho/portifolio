@@ -1,0 +1,27 @@
+.header {
+    height: 50px;
+    width: 100%;
+    border: 1px black solid;
+}
+
+.menuNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 3%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.menuItem {
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
