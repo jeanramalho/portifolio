@@ -7,8 +7,8 @@ import Background from './components/Background/Background'
 function App() {
     return ( 
         <fragment>
-            <Background />
             <Header />
+            <Background />
         </fragment>
         
     )
