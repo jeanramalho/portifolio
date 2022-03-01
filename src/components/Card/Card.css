@@ -1,0 +1,21 @@
+.card-box {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    float: left;
+}
+
+.card-main {
+    height: 70vh;
+    width: 80vw;
+    border: none;
+    border-radius: 12px;
+    float: left;
+    margin-top: 10px;
+    background-color: rgba(204, 193, 214, 0.158);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(5px);
+}
