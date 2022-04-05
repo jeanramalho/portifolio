@@ -130,6 +130,13 @@ section {
     font-family: "Roboto", sans-serif;
 }
 
+.about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .about .title {
     font-family: "Ubuntu", sans-serif;
     text-align: center;
@@ -163,6 +170,45 @@ section {
     transform: translateX(-50%);
 }
 
+.about .about-content .left {
+    width: 45%;
+}
+
+.about .about-content .right {
+    width: 55%;
+}
+
+.about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span{
+    color: purple;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
+
+.about .about-content .right a{
+    display: inline-block;
+    background: purple;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid purple;
+    transition: all 0.3s ease;
+}
+
+.about .about-content .right a:hover{
+    color: purple;
+    background: none;
+}
 
 .about .about-content .left img {
     width: 400px;
@@ -171,7 +217,21 @@ section {
     border-radius: 8px;
 }
 
+@media (max-width: 1300px){
+    .navbar .max-width {
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 1104px){
+    .about .about-content .left img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+
     .navbar .max-width {
         margin-left: 0;
     }
@@ -185,6 +245,7 @@ section {
 
 @media (max-width: 947px){
     .max-width {
+        max-width: 800px;
         padding: 0 50px;
     }
 
@@ -234,6 +295,20 @@ section {
     .home .home-content a{
         font-size: 23px;
         padding: 10px 30px;
+    }
+
+    .about .about-content .column {
+        width: 50%;
+    }
+
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .about-content .right{
+        flex: 100%;
     }
 }
 
