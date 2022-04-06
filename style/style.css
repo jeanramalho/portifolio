@@ -352,6 +352,12 @@ section .title::after{
     background: #222;
     border-radius: 8px;
     padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover{
+    background: purple;
 }
 
 .teams .carousel .card img{
@@ -360,6 +366,11 @@ section .title::after{
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid purple;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img{
+    border-color: #fff;
 }
 
 .teams .carousel .card .box{
@@ -367,7 +378,41 @@ section .title::after{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease;
+}
 
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot{
+    width: 14px;
+    height: 14px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid purple!important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 15px;
+}
+
+.owl-dot.active,
+.owl-dot:hover{
+    background: purple!important;
 }
 
 @media (max-width: 1300px){
