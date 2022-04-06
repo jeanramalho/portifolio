@@ -126,18 +126,19 @@ section {
     padding: 100px 0;
 }
 
-.about {
+.about, .services{
     font-family: "Roboto", sans-serif;
 }
 
-.about .about-content {
+.about .about-content, 
+.services .serv-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.about .title {
+section .title {
     font-family: "Ubuntu", sans-serif;
     text-align: center;
     font-size: 40px;
@@ -147,7 +148,7 @@ section {
     position: relative;
 }
 
-.about .title::before{
+section .title::before{
     content: "";
     position: absolute;
     bottom: 0;
@@ -158,8 +159,7 @@ section {
     transform: translateX(-50%);
 }
 
-.about .title::after{
-    content: "Quem sou eu";
+section .title::after{
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -168,6 +168,10 @@ section {
     color: purple;
     padding: 5px;
     transform: translateX(-50%);
+}
+
+.about .title::after {
+    content: "Quem sou eu";
 }
 
 .about .about-content .left {
@@ -215,6 +219,49 @@ section {
     height: 400px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.services {
+    background: #111;
+    color: #fff;
+}
+
+.services .title::before{
+    background: #fff;
+}
+
+.services .title::after{
+    background: #111;
+    content: "O que oferecemos";
+}
+
+.services .serv-content .card{
+    width: calc(33% - 65px);
+    background: #222;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.services .serv-content .card ion-icon{
+    font-size: 70px;
+    color: purple;
+}
+
+.services .serv-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0 ;
 }
 
 @media (max-width: 1300px){
