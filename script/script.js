@@ -15,6 +15,20 @@ $(document).ready(function(){
         $('html').animate({scrollTop: 0});
     })
 
+
+    var typed = new Typed(".typing", {
+        strings:["Web Developer", "Android Developer - Kotlin", "Designer", "Analista", "Help Desk"],
+        typedSpeed:100,
+        backSpeed:60,
+        loop:true
+    });
+    var typed = new Typed(".typing-2", {
+        strings:["Web Developer", "Android Developer - Kotlin", "Designer", "Analista", "Help Desk"],
+        typedSpeed:100,
+        backSpeed:60,
+        loop:true
+    })
+
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
