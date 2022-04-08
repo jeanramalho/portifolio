@@ -307,39 +307,25 @@ section .title::after{
 }
 
 .soft-skills .title::after{
-    content: "O que eu faço";
+    content: "Habilidades";
 }
 
 .soft-skills .soft-skills-content .column{
     width: calc(50% - 30px);
 }
 
-.soft-skills .soft-skills-content .left .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin-bottom: 10px;
+.soft-skills .soft-skills-content .left .soft{
+    width: calc(70% - 90px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.soft-skills .soft-skills-content .left p{
-    text-align: justify;
-}
-
-.soft-skills .soft-skills-content .left a{
-    display: inline-block;
-    background: purple;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid purple;
-    transition: all 0.3s ease;
-}
-
-.soft-skills .soft-skills-content .left a:hover{
-    color: purple;
-    background: none;
+.soft-skills .soft-skills-content .left {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: auto;
 }
 
 .soft-skills .soft-skills-content .right .bars{
