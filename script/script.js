@@ -17,15 +17,15 @@ $(document).ready(function(){
 
 
     var typed = new Typed(".typing", {
-        strings:["Web Developer", "Android Developer - Kotlin", "Designer", "Analista", "Help Desk"],
-        typedSpeed:100,
-        backSpeed:60,
+        strings:["Web Developer", "Kotlin Android Developer", "Designer", "Help Desk Analyst "],
+        typedSpeed:50,
+        backSpeed:100,
         loop:true
     });
     var typed = new Typed(".typing-2", {
-        strings:["Web Developer", "Android Developer - Kotlin", "Designer", "Analista", "Help Desk"],
-        typedSpeed:100,
-        backSpeed:60,
+        strings:["Web Developer", "Kotlin Android Developer", "Designer", "Help Desk Analyst"],
+        typedSpeed:50,
+        backSpeed:100,
         loop:true
     })
 
