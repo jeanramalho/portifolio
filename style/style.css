@@ -97,7 +97,7 @@ html{
 
 .home {
     display: flex;
-    background: black;
+    background: url(../assets/wpp-1.png);
     height: 100vh;
     color: #fff;
     min-height: 500px;
