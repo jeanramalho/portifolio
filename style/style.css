@@ -155,12 +155,12 @@ section {
     padding: 100px 0;
 }
 
-.about, .services, .skills, .teams, .contact, footer{
+.about, .hard-skills, .skills, .teams, .contact, footer{
     font-family: "Roboto", sans-serif;
 }
 
 .about .about-content, 
-.services .serv-content,
+.hard-skills .hard-skills-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -252,57 +252,58 @@ section .title::after{
     border-radius: 8px;
 }
 
-.services, .teams {
+.hard-skills, .teams {
     background: #111;
     color: #fff;
 }
 
-.services .title::before,
+.hard-skills .title::before,
 .teams .title::before{
     background: #fff;
 }
 
-.services .title::after{
+.hard-skills .title::after{
     background: #111;
-    content: "O que oferecemos";
+    content: "Tech";
 }
 
-.services .serv-content .card{
-    width: calc(33% - 65px);
+.hard-skills .hard-skills-content .card{
+    width: calc(20% - 65px);
     background: #222;
     text-align: center;
     border-radius: 8px;
-    padding: 20px 25px;
+    padding: 12px 12px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin: 15px;
 }
 
-.services .serv-content .card:hover{
+.hard-skills .hard-skills-content .card:hover{
     background: purple;
 }
 
-.services .serv-content .card .box{
+.hard-skills .hard-skills-content .card .box{
     transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover .box{
+.hard-skills .hard-skills-content .card:hover .box{
     transform: scale(1.05);
 }
 
-.services .serv-content .card ion-icon{
+.hard-skills .hard-skills-content .card i{
     font-size: 70px;
     color: purple;
     transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover ion-icon{
+.hard-skills .hard-skills-content .card:hover i {
     color: white;
 }
 
-.services .serv-content .card .text {
-    font-size: 25px;
+.hard-skills .hard-skills-content .card .text {
+    font-size: 20px;
     font-weight: 500;
-    margin: 10px 0 7px 0 ;
+    margin: 30px 10px;
 }
 
 .skills .title::after{
@@ -579,6 +580,11 @@ footer span a:hover{
     .navbar .max-width {
         margin-left: 0;
     }
+
+    .hard-skills .hard-skills-content .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 1104px){
@@ -593,12 +599,13 @@ footer span a:hover{
     .navbar .max-width {
         margin-left: 0;
     }
+    
 }
 
 @media (max-width: 991px) {
     .navbar .max-width {
         padding: 0 50px;
-    }
+    }    
 }
 
 @media (max-width: 947px){
@@ -669,7 +676,7 @@ footer span a:hover{
         flex: 100%;
     }
 
-    .services .serv-content .card{
+    .hard-skills .hard-skills-content .card{
         width: 100%;
         margin-bottom: 20px;
     }
@@ -698,7 +705,7 @@ footer span a:hover{
         font-size: 20px;
     }
 
-    .services .serv-content .card{
+    .hard-skills .hard-skills-content .card{
         width: 100%;
 }
 
