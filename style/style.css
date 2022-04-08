@@ -97,8 +97,8 @@ html{
 
 .home {
     display: flex;
-    background: url(../assets/wpp-1.png);
-    height: 100vh;
+    background: url(../assets/wpp-1.png) no-repeat;
+    height: calc(100vh - 150px);
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
