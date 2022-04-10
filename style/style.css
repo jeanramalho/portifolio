@@ -676,6 +676,10 @@ footer span a:hover{
     footer {
         margin-top: 10px;
     }
+
+    .soft-skills .soft-skills-content .left .soft{
+        width: calc(40% - 90px);
+    }
 }
 
 @media (max-width: 690px){
@@ -693,6 +697,11 @@ footer span a:hover{
 
     .hard-skills .hard-skills-content .card{
         width: 100%;
+    }
+
+    .soft-skills .soft-skills-content .left .soft{
+        width: calc(60% - 90px);
+    }
 }
 
 @media (max-width: 500px){
