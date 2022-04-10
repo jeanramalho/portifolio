@@ -328,10 +328,6 @@ section .title::after{
     padding: auto;
 }
 
-.soft-skills .soft-skills-content .right .bars{
-    margin-bottom: 15px;
-}
-
 .soft-skills .soft-skills-content .right .info{
     display: flex;
     align-items: center;
@@ -358,6 +354,22 @@ section .title::after{
     top: 0;
     left: 0;
     background: purple;
+}
+
+.soft-skills .soft-skills-content .right .text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.soft-skills .soft-skills-content .right .text span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: purple;
 }
 
 .teams .title::after{
