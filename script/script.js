@@ -10,7 +10,7 @@ $(document).ready(function(){
         }else{
             $('.scroll-up-btn').removeClass("show")
         }
-        if(this.scrollY <= 20){
+        if(this.scrollY < 20){
             $('.home-content').addClass("reveal")
         }else{
             $('.home-content').removeClass("reveal")
@@ -20,10 +20,15 @@ $(document).ready(function(){
         }else{
             $('.about-content').removeClass("reveal")
         }
-        if(this.scrollY > 900){
+        if(this.scrollY > 1000){
             $('.hard-skills-content').addClass("reveal")
         }else{
             $('.hard-skills-content').removeClass("reveal")
+        }
+        if(this.scrollY > 1800){
+            $('.soft-skills-content').addClass("reveal")
+        }else{
+            $('.soft-skills-content').removeClass("reveal")
         }
     
     })
