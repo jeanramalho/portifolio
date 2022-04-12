@@ -574,6 +574,23 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+.reveal{
+    display: block;
+    opacity: 0;
+    animation: revealText 1.5s forwards;
+}
+
+
+
+@keyframes revealText {
+    from{
+        transform: translateY(50px);
+    } to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 @media (max-width: 1300px){
     .navbar .max-width {
         margin-left: 0;

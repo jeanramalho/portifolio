@@ -4,11 +4,28 @@ $(document).ready(function(){
             $('.navbar').addClass("sticky")
         }else{
             $('.navbar').removeClass("sticky")
-        }if(this.scrollY > 500){
+        }
+        if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show")
         }else{
             $('.scroll-up-btn').removeClass("show")
         }
+        if(this.scrollY <= 20){
+            $('.home-content').addClass("reveal")
+        }else{
+            $('.home-content').removeClass("reveal")
+        }
+        if(this.scrollY > 20){
+            $('.about-content').addClass("reveal")
+        }else{
+            $('.about-content').removeClass("reveal")
+        }
+        if(this.scrollY > 900){
+            $('.hard-skills-content').addClass("reveal")
+        }else{
+            $('.hard-skills-content').removeClass("reveal")
+        }
+    
     })
 
     $('.scroll-up-btn').click(function(){
