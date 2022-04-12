@@ -155,7 +155,7 @@ section {
     padding: 100px 0;
 }
 
-.about, .hard-skills, .soft-skills, .teams, .contact, footer{
+.about, .hard-skills, .soft-skills, .projetos, .contact, footer{
     font-family: "Roboto", sans-serif;
 }
 
@@ -252,13 +252,13 @@ section .title::after{
     border-radius: 8px;
 }
 
-.hard-skills, .teams {
+.hard-skills, .projetos {
     background: #111;
     color: #fff;
 }
 
 .hard-skills .title::before,
-.teams .title::before{
+.projetos .title::before{
     background: #fff;
 }
 
@@ -372,12 +372,12 @@ section .title::after{
     color: purple;
 }
 
-.teams .title::after{
+.projetos .title::after{
     content: "Especializada";
     background: #111;
 }
 
-.teams .carousel .card{
+.projetos .carousel .card{
     background: #222;
     border-radius: 8px;
     padding: 25px 35px;
@@ -385,11 +385,11 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover{
+.projetos .carousel .card:hover{
     background: purple;
 }
 
-.teams .carousel .card img{
+.projetos .carousel .card img{
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -398,11 +398,11 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover img{
+.projetos .carousel .card:hover img{
     border-color: #fff;
 }
 
-.teams .carousel .card .box{
+.projetos .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -410,11 +410,11 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover .box{
+.projetos .carousel .card:hover .box{
     transform: scale(1.05);
 }
 
-.teams .carousel .card .text{
+.projetos .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
