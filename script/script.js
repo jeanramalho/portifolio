@@ -30,6 +30,11 @@ $(document).ready(function(){
         }else{
             $('.soft-skills-content').removeClass("reveal")
         }
+        if(this.scrollY > 2600){
+            $('.projetos').addClass("reveal")
+        }else{
+            $('.projetos').removeClass("reveal")
+        }
     
     })
 
