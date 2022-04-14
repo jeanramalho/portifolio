@@ -373,7 +373,7 @@ section .title::after{
 }
 
 .projetos .title::after{
-    content: "Especializada";
+    content: "Arrasta pro lado";
     background: #111;
 }
 
@@ -390,10 +390,10 @@ section .title::after{
 }
 
 .projetos .carousel .card img{
-    width: 150px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 12px;
     border: 5px solid purple;
     transition: all 0.3s ease;
 }
@@ -579,7 +579,6 @@ footer span a:hover{
     opacity: 0;
     animation: revealText 1.5s forwards;
 }
-
 
 
 @keyframes revealText {
