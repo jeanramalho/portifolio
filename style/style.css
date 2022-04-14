@@ -315,7 +315,7 @@ section .title::after{
 }
 
 .soft-skills .soft-skills-content .left .soft{
-    width: calc(70% - 90px);
+    width: calc(50% - 90px);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -381,7 +381,7 @@ section .title::after{
     background: #222;
     border-radius: 8px;
     padding: 25px 35px;
-    text-align: center;
+    text-align: justify;
     transition: all 0.3s ease;
 }
 
@@ -391,7 +391,7 @@ section .title::after{
 
 .projetos .carousel .card img{
     width: 500px;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
     border-radius: 12px;
     border: 5px solid purple;
