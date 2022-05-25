@@ -1,4 +1,4 @@
 # portifolio
 
 ## Sobre
-Viver novas experiências é transformador, e como qualquer apaixonado por tecnologia, estou sempre buscando inovações e ficar por dentro das novidades. Trabalhar em equipe pra mim é um privilégio, essa troca que somente o trabalho em equipe pode oferecer são experi
+A vida é uma sequencia de fases em diferentes mundos, e para o mundo profissional escolhi usar os equipos da programação para alcançar meus objetivos e passar de fases.
