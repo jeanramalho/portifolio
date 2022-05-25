@@ -184,9 +184,9 @@ section {
 }
 
 section .title {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Positive", sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
@@ -231,14 +231,17 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
+    font-family: 'Positive', sans-serif;
 }
 
 .about .about-content .right .text span{
     color: purple;
+    font-family: '8bit', sans-serif;
 }
 
 .about .about-content .right p{
     text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .about .about-content .right a{
