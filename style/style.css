@@ -249,6 +249,7 @@ section .title::after{
     background: purple;
     color: #fff;
     font-size: 20px;
+    font-family: 'Positive', sans-serif;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
