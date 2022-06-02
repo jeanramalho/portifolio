@@ -5,3 +5,6 @@ A vida é uma sequencia de fases em diferentes mundos, e para o mundo profission
 
 ## Projetos
 Criar projetos para o portifólio é uma importante arma na busca por uma vaga!
+
+## Hard Skills
+Hard Skills é o campo onde podemos encontrar as habilidades que conhecidas através da jornada de aprendizagem!
