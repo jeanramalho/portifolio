@@ -328,7 +328,7 @@ section .title::after{
 
 
 .card-hard{
-    background: grey;
+    background: #222;
     border-radius: 8px;
     text-align: justify;
     transition: all 0.3s ease;
@@ -337,13 +337,26 @@ section .title::after{
 }
 
 .card-hard .card {
-    background: purple;
+      text-align: center;
+}
+
+.card-hard .card h2 {
+    font-size: 12pt;
+    font-family: "8bit", sans-serif;
+    color: purple;
+}
+
+.card-hard .card h3 {
+    font-size: 32px;
+    font-family: "Positive", sans-serif;
+    font-weight: lighter;
+    margin: 8px;
 }
 
 .card-hard .card .box {
-    background: green;
     display: flex;
     flex-flow: row wrap;
+    margin: 15px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -353,11 +366,32 @@ section .title::after{
 }
 
 .techs {
-    width: 90px;
+    width: 100px;
     align-items: center;
     text-align: center;
-    background: pink;
+    background: none;
     margin: 4px;
+    padding: 12px;
+    border-radius: 8px;
+    border: #fff 2px solid;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.techs:hover {
+    border-color: purple;
+    transform: scale(1.05);
+    color: purple;
+}
+
+.techs i:hover{
+    transform: scale(1.05);
+}
+
+.techs .text {
+    font-family: "8bit", sans-serif;
+    font-size: 12px;
+    margin: 3px;
 }
 
 .soft-skills .title::after{
