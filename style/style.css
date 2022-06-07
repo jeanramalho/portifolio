@@ -273,6 +273,7 @@ section .title::after{
 .hard-skills, .projetos {
     background: #111;
     color: #fff;
+    height: 100vh;
 }
 
 .hard-skills .title::before,
