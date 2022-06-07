@@ -215,6 +215,8 @@ section .title::after{
     transform: translateX(-50%);
 }
 
+
+
 .about .title::after {
     content: "Quem sou eu";
 }
@@ -277,8 +279,12 @@ section .title::after{
 }
 
 .hard-skills .title::before,
-.projetos .title::before{
+.projetos .title::before {
     background: #fff;
+}
+
+.projetos .title::before {
+    width: 250px;
 }
 
 .hard-skills .title::after{
