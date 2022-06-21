@@ -558,7 +558,7 @@ section .title::after{
 }
 
 .contact .title::after{
-    content: "Fale Conosco";
+    content: "Fale comigo";
 }
 
 .contact .contact-content .column{
@@ -669,6 +669,10 @@ section .title::after{
 .contact .right form .button button:hover{
     background: none;
     color: purple;
+}
+
+.logoCtt {
+    width: 30px;
 }
 
 footer{
