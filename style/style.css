@@ -411,7 +411,7 @@ section .title::after{
 }
 
 .soft-skills .soft-skills-content .left .soft{
-    width: calc(50% - 90px);
+    width: calc(80% - 90px);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -467,6 +467,8 @@ section .title::after{
     margin-bottom: 15px;
     color: purple;
 }
+
+
 
 .projetos .title::after{
     content: "Arrasta pro lado";
