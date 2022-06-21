@@ -561,8 +561,12 @@ section .title::after{
     content: "Fale comigo";
 }
 
-.contact .contact-content .column{
-    width: calc(50% - 30px);
+.contact .contact-content .column .right{
+    width: 45vw;
+}
+
+.game {
+    width: 60%;
 }
 
 .contact .contact-content{
@@ -671,8 +675,12 @@ section .title::after{
     color: purple;
 }
 
-.logoCtt {
-    width: 30px;
+.icon {
+    width: 120px;
+}
+
+.img-icon {
+    width: 60px;
 }
 
 footer{
