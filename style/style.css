@@ -562,16 +562,16 @@ section .title::after{
 }
 
 .icon {
-    width: 120px;
+     margin: 10px;
 }
 
 .img-icon {
-    width: 60px;
+    width: 100px;
 }
 
 .contato-cont {
     width: 100vw;
-    height: 3s0vh;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -589,11 +589,18 @@ section .title::after{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: ;
 }
 
 .icons {
     width: 47vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.txt-img {
+    display: flex;
+    flex-direction: column;
 }
 
 
