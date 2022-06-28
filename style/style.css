@@ -561,6 +561,14 @@ section .title::after{
     content: "Fale comigo";
 }
 
+.contact {
+    width: 100vw;
+    height: 77vh;
+    padding: 0;
+    padding-top: 20px;
+}
+
+
 .icon {
      margin: 10px;
 }
@@ -568,6 +576,7 @@ section .title::after{
 .img-icon {
     width: 100px;
 }
+
 
 .contato-cont {
     width: 100vw;
@@ -577,6 +586,7 @@ section .title::after{
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    
 }
 
 .video-game {
@@ -603,6 +613,13 @@ section .title::after{
     flex-direction: column;
 }
 
+.cttText {
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
 
 
 footer{
